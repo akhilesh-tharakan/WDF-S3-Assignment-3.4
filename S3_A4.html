@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<!--Head tag begins-->
+	<head> 
+		<title> Assignment #3.4 - CSS Position </title>
+	</head>
+	<!--Head tag ends-->
+	
+	<!-- Internal style sheet is being called -->
+	<style>
+		body{
+			float:left;
+		}
+		
+		.img_position_1{
+			position: absolute;
+			z-index:-1;
+			top:20px;
+			left:0;
+		}
+		
+		.img_position_0{
+			position: absolute;
+			z-index:0;
+			top: 206px;
+			left:0px;
+		}
+		
+	</style>
+	<!-- Internal CSS ends -->
+
+	<!--Body tag begins-->
+	<body>
+		<span>
+			<h1 style="color:#d8d872;">This is a heading. This is the second line of heading where the <span style="color:red;"> z-index is -1</span></h1>
+			<img class="img_position_1" src="acad_logo.jpg"/>
+		</span>
+		<p>This is the first paragraph. This is the first paragraph (2). This is the first paragraph. (3) </p>
+		<p>This is the second paragraph. This is the second paragraph (2). This is the second paragraph. (3) </p><br/><br/>
+		
+		
+		<span>
+			<h1>This is a heading. This is the second line of heading<span style="color:red;"> z-index is 0</span></span></h1>
+			<img class="img_position_0" src="acad_logo.jpg"/>
+		</span>
+		<p>This is the first paragraph. This is the first paragraph (2). This is the first paragraph. (3) </p>
+		<p>This is the second paragraph. This is the second paragraph (2). This is the second paragraph. (3) </p><br/><br/>
+	</body>
+	<!--body tag ends-->
+	
+	<!-- Assignment to learn CSS position -->
+</html>	
